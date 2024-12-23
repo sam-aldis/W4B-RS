@@ -1,0 +1,26 @@
+[package]
+name = "w4b"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cli"
+path = "src/cli.rs"
+
+[[bin]]
+name = "w4b"
+path = "src/main.rs"
+
+[[bin]]
+name = "tui"
+path = "src/tui.rs"
+
+[dependencies]
+colored = "2.2.0"
+crossterm = "0.28.1"
+figleter = "0.2.2"
+gemini-rs = "0.4.2"
+google-generative-ai-rs = "0.3.2"
+serde = "1.0.216"
+serde_json = "1.0.133"
+tokio = "1.42.0"
