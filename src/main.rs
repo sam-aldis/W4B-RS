@@ -1,5 +1,6 @@
-mod secrets;
+mod secrets_dev;
 mod api;
+use secrets_dev as secrets;
 
 #[tokio::main]
 async fn main() {
