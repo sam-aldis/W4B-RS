@@ -15,12 +15,24 @@ path = "src/main.rs"
 name = "tui"
 path = "src/tui.rs"
 
+[[bin]]
+name = "tui-ng"
+path = "src/tui-ng.rs"
+
+[lib]
+name = "api"
+path = "src/lib/libapi.rs"
+
 [dependencies]
+anyhow = "1.0.95"
 colored = "2.2.0"
+crokey = "1.1.0"
 crossterm = "0.28.1"
 figleter = "0.2.2"
 gemini-rs = "0.4.2"
 google-generative-ai-rs = "0.3.2"
+reqwest = { version = "0.12.9", features = ["blocking"] }
 serde = "1.0.216"
 serde_json = "1.0.133"
+termimad = "0.31.1"
 tokio = "1.42.0"

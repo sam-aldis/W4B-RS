@@ -1,0 +1,6 @@
+[book]
+authors = ["Sam Aldis"]
+language = "en"
+multilingual = false
+src = "md"
+title = "W4B"
